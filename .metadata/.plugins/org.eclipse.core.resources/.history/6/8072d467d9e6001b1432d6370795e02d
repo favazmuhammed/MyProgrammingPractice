@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : ArrayProject.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int limit, a[100];
+
+	printf("Enter the array limit");
+	scanf("%d", &limit);
+
+	printf("Input elements in the array\n");
+
+	for (limit = 0; limit<  5; limit++){
+
+		scanf("%d", &a[limit]);
+	}
+	printf("Print elements in the array\n");
+
+	for(limit = 0; limit<5; limit++){
+
+		printf("%d\n", a[limit]);
+	}
+
+	return EXIT_SUCCESS;
+}

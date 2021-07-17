@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : ArraySearch.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int i, limit, search_key, inputs;
+	scanf("%d", &limit);
+
+	printf("Enter the search key");
+	scanf("%d",&search_key);
+
+	for (i=0; i< limit; i++){
+
+		scanf("%d", &inputs[i]);
+	}
+
+	for(i=0; i<limit; i++){
+
+		if(search_key == inputs[i]){
+			printf("The element places at %d th position", i+1);
+			break;
+		}
+
+	}
+	return EXIT_SUCCESS;
+}

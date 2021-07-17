@@ -1,0 +1,7 @@
+22:46:07 **** Incremental Build of configuration Debug for project Star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Star.o" "..\\src\\Star.c" 
+gcc -o Star.exe "src\\Star.o" 
+
+22:46:08 Build Finished. 0 errors, 0 warnings. (took 1s.74ms)
+

@@ -1,0 +1,7 @@
+15:04:53 **** Incremental Build of configuration Debug for project Project 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Project 1.o" "..\\src\\Project 1.c" 
+gcc -o "Project 1.exe" "src\\Project 1.o" 
+
+15:05:06 Build Finished. 0 errors, 0 warnings. (took 12s.915ms)
+
